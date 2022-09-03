@@ -1,4 +1,4 @@
-package com.dataflair.hd.wc;
+package com.vk.wc;
 
 import java.io.IOException;
 
