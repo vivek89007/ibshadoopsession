@@ -1,0 +1,17 @@
+cat employees.txt 
+1	Vivek	India	Software Developer	2000
+2	Anil	US	Software Developer	2500
+
+hdfs dfs -mkdir /Hadoop_File
+hdfs dfs -copyFromLocal /home/ibstraining/employees.txt /Hadoop_File
+
+hdfs dfs -ls /Hadoop_File
+
+
+show databases;
+create database company;
+use company;
+create table employees(id int, name string, country string, department string, salary int) row format delimited fields terminated by '\t' stored as textfile;
+desc table employees;
+load data inpath '/Hadoop_File/employees.txt' overwrite into table employees;
+select * from employees;
