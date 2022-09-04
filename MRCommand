@@ -1,0 +1,1 @@
+hadoop jar WordCountJob.jar com.vk.wc.WordCount /input001/ /output001
