@@ -1,0 +1,23 @@
+hadoop version
+hdfs dfs -ls /
+hdfs dfs -df hdfs:/
+hdfs dfs -count hdfs:/
+hdfs fsck /
+hdfs balancer
+hdfs dfs -mkdir /hadoop
+dfs dfs -put test /hadoop
+hdfs dfs -du /
+hdfs dfs -chmod 777 /hadoop
+hdfs dfs -rm /hadoop/test
+hdfs dfs -rm -r /hadoop/hello
+hdfs dfs -get /hadoop/test /home/ubuntu/Desktop/
+hdfs dfs -cat /hadoop/test
+hdfs dfs -touchz /hadoop/sample
+hdfs dfs -copyFromLocal /home/ubuntu/new /hadoop
+hdfs dfs -copyToLocal /hadoop/sample /home/ubuntu/
+hdfs dfs -mv /hadoop/sample /tmp
+hdfs dfs -cp /tmp/sample /usr
+hdfs dfs -tail /hadoop/new
+hdfs dfs -chown root:root /tmp
+hdfs dfs -stat "%F %u:%g %b %y %n" /hadoop/test
+hdfs dfs -du -s /hadoop
