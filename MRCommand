@@ -1,1 +1,3 @@
+https://www.geeksforgeeks.org/how-to-execute-wordcount-program-in-mapreduce-using-cloudera-distribution-hadoop-cdh/ - Eclipse Map Reduce Jar File Creation for WordCount Program.
+
 hadoop jar WordCountJob.jar com.vk.wc.WordCount /input001/ /output001
