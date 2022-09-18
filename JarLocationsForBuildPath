@@ -1,5 +1,5 @@
-hadoop-2.5.0-cdh5.3.2\share\hadoop\common\*.jar
-hadoop-2.5.0-cdh5.3.2\share\hadoop\common\lib\*.jar
-hadoop-2.5.0-cdh5.3.2\share\hadoop\hdfs\*.jar
-hadoop-2.5.0-cdh5.3.2\share\hadoop\mapreduce2\*.jar
-hadoop-2.5.0-cdh5.3.2\share\hadoop\yarn\*.jar
+hadoop\share\hadoop\common\*.jar
+hadoop\share\hadoop\common\lib\*.jar
+hadoop\share\hadoop\hdfs\*.jar
+hadoop\share\hadoop\mapreduce2\*.jar
+hadoop\share\hadoop\yarn\*.jar
